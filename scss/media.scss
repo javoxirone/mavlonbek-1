@@ -1,0 +1,60 @@
+// Media styles start
+
+@media (max-width: 767px) {
+    .home__img{
+        display: none;
+    }
+    .home__text{
+        text-align: center;
+    }
+    .home__scroll-down{
+        display: none;
+    }
+    .home__content{
+        >.home__text{
+            width: 100%!important;
+            text-align: center;
+        }
+    }
+    .home__title{
+        font-size: 48px;
+    }
+    .home__text{
+        > .main-btn{
+
+            margin: 32px auto!important;
+        }
+    }
+    .service__content{
+        flex-wrap: wrap;
+        justify-content: center!important;
+    }
+    .service__cards{
+        flex-wrap: wrap;
+    }
+    .service__text{
+        text-align: center;
+    }
+    .service__text{
+        > .main-btn{
+
+            margin: 32px auto!important;
+        }
+    }
+    .card{
+        width: 100%!important;
+    }
+    .recentcard{
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+    .recent__card {
+        width: 100%!important;
+    }
+    .header__content{
+        justify-content: center!important;
+        gap: 32px;
+    }
+}
+
+// Media styles end
